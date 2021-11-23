@@ -20,7 +20,7 @@ Recientemente, con el [nuevo modo oscuro de macOS Mojave](https://www.theverge.c
 
 La [CSSWG](https://drafts.csswg.org/) fue bastante rápida al respecto y, el siguiente mes y empujado por Dean Jackson de Apple (como era de esperar), ya tenía disponible una especificación para detectar con [una media query la preferencia del usuario para el contraste elegido en el tema de su sistema operativo.](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme) **Esto es eficiencia.**
 
-La nueva query se escribe `@media (prefers-scholor-scheme: value)` donde `value` puede ser:
+La nueva query se escribe `@media (prefers-color-scheme: value)` donde `value` puede ser:
 
 - `no-preference` para indicar que el usuario no tiene una preferencia conocida en el sistema.
 - `light` para indicar que su preferencia es tener un tema con colores claros.
@@ -81,3 +81,7 @@ Pero esto no termina aquí, no es tan sencillo. Para terminar que funcione esto,
 ## Lo más importante: web que se siente nativa
 
 En realidad lo más interesante de todo esto **es ver como se sigue trabajando para hacer que las tecnologías web se asemejen lo máximo posible a las apps nativas.** Imaginad las aplicaciones web que tenemos en nuestros escritorios, como Visual Studio Code y Slack, que puedan adaptarse utilizando tecnologías web al contraste que ha elegido el usuario en el sistema operativo. Y esto, nos ayuda a pensar que la web no se va a quedar rezagada.
+
+## Update
+
+Esta funcionalidad ya está disponible en la mayoría de navegadores. [Ver en Caniuse.](https://caniuse.com/?search=prefers-color-scheme)
